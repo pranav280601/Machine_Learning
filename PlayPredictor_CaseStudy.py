@@ -36,7 +36,7 @@ def KNN():
 
 	dobj = KNeighborClassifier(n_neighbors = 3)
 
-	dobj.fit(list(DataX),Play)
+	dobj.fit(list(DataX),PlayX)
 
 	result = dobj.predict([[0,2]])
 
